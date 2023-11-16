@@ -1,0 +1,36 @@
+POST 200 /api/persons 50 {"name":"Diego Longo","number":"3287282311"}
+GET 200 / undefined {}
+GET 200 /api/persons undefined {}
+GET 200 /info undefined {}
+GET 404 /api/persons/:id undefined {}
+GET 200 /api/persons/:id undefined {}
+type
+type
+type
+type
+GET 304 / undefined {}
+GET 200 /api/persons undefined {}
+GET 304 /api/persons undefined {}
+GET 200 /api/persons/:id undefined {}
+POST 500 /api/persons 74 {"id":1,"name":"Arto Hellas","number":"040-123456"}
+POST 200 /api/persons 68 {"id":1,"name":"Diego","number":"041-123456"}
+GET 200 /api/persons undefined {}
+GET 304 /api/persons undefined {}
+GET 304 /api/persons undefined {}
+GET 304 /api/persons undefined {}
+GET 304 /api/persons undefined {}
+GET 304 /api/persons undefined {}
+POST 200 /api/persons 62 {"name":"It works!!!","number":"7134y6716","id":1700133390048}
+GET 200 /api/persons undefined {}
+POST 200 /api/persons 55 {"name":"WHYYY","number":"15152125","id":1700133521918}
+GET 200 /api/persons undefined {}
+POST 200 /api/persons 54 {"name":"sadads","number":"qweeqw","id":1700133581100}
+GET 200 /api/persons undefined {}
+POST 200 /api/persons 59 {"name":"asdeqwqwe","number":"12414412","id":1700133638401}
+GET 200 /api/persons undefined {}
+POST 200 /api/persons 53 {"name":"hello","number":"139412","id":1700133717901}
+DELETE 204 /api/persons/:id undefined {}
+GET 200 /api/persons undefined {}
+DELETE 204 /api/persons/:id undefined {}
+GET 304 /api/persons undefined {}
+DELETE 200 /api/persons/:id undefined {}
